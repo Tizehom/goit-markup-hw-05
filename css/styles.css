@@ -656,6 +656,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 72px 24px 24px;
   transform: translate(-50%, -50%) scaleY(1);
   transition: transform var(--transition-dur-and-func);
   width: 408px;
@@ -714,3 +715,55 @@ body {
 }
 
 /* ============ /MODAL WINDOW ============== */
+
+/* ============ MODAL FORM ============== */
+
+.review-form {
+}
+
+.review-form-field {
+  display: block;
+}
+
+.review-form-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--dark);
+  margin-bottom: 16px;
+}
+
+.review-form-field-desc {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  color: var(--color-icon);
+  margin-bottom: 4px;
+}
+
+.review-form-input-wrapper {
+  display: block;
+  position: relative;
+}
+
+.review-form-input {
+  margin-bottom: 8px;
+  padding-left: 38px;
+  font-size: 18px;
+  width: 100%;
+  height: 58px;
+  border-radius: 4px;
+}
+
+.review-form-input-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  fill: var(--dark);
+}
+
+/* ============ /MODAL FORM ============== */
