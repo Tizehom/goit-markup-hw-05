@@ -750,6 +750,7 @@ body {
 }
 
 .review-form-input {
+  display: block;
   margin-bottom: 8px;
   padding-left: 38px;
   font-size: 18px;
