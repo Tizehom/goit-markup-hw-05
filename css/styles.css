@@ -554,6 +554,11 @@ body {
   border-radius: 4px;
 }
 
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: var(--accent-color);
+}
+
 .footer-subscribe-icon {
   margin-left: 16px;
   fill: var(--white);
@@ -625,12 +630,6 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-/* .project-item:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
-  0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-  0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-} */
 
 .project-box {
   position: relative;
@@ -766,9 +765,6 @@ body {
 
 /* ============ MODAL FORM ============== */
 
-.review-form {
-}
-
 .review-form-container {
   margin-bottom: 8px;
 }
@@ -795,11 +791,6 @@ body {
 .form-input-box {
   position: relative;
 }
-
-/* .review-form-input-wrapper {
-  display: block;
-  position: relative;
-} */
 
 .review-form-input {
   display: block;
@@ -885,9 +876,10 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.review-form-checkbox:checked + .checkbox-label {
+.review-form-checkbox:checked + .review-form-checkbox-label .checkbox-label {
   background-color: var(--accent-color);
   fill: var(--light-color);
+  border: none;
 }
 
 .review-form-policy-link {
